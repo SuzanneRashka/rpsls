@@ -1,0 +1,1 @@
+This is a simple rock, paper scissors with Big Bang additions. I found it cleaning out some files and it's not working, but I'm going to work on it here and there and get it to a working status. Maybe add some cool pictures too. 
