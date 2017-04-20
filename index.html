@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>RPSLS</title>
+</head>
+
+<body>
+    <h1 class="center">Rock, Paper, Scissors, Lizard, Spock</h1>
+    <h3 class="center">Please make a selection</h3>
+    <div class="container selectorButtons center" id="userChoice">
+        <button class="fancy-btn" id="rock" value="Rock">Rock</button>
+        <button class="fancy-btn" id="paper" value="Paper">Paper</button>
+        <button class="fancy-btn" id="scissors" value="Scissors">Scissors</button>
+        <button class="fancy-btn" id="lizard" value="Lizard">Lizard</button>
+        <button class="fancy-btn" id="spock" value="Spock">Spock</button>
+    </div>
+    <div class="row">
+        <div>
+            <h3>You chose: <a id="user"></a></h3>
+        </div>
+        <div>
+            <h3>Computer choice was: <a id="computer"></a></h3>
+        </div>
+    </div>
+    <div>
+        <button class="fancy-btn" onclick="compare(userChoice, computerChoice);">Compare</button>
+        <button class="fancy-btn" onclick="replay()">Play Again</button>
+        <script language="JavaScript" type="text/javascript" src="apps.js"></script>
+        <script src="scripts.js"></script>
+</body>
+
+</html>
+
+<!-- Checklist
+XX 1) Create buttons and make them log it's intended
+XX 2) Add math values
+XX 3) Create text area to log computer choice
+4) Make compairson on two items
+5) Add in other compairsons
+6) style it up, but dont spend too much time on it
+ -->
