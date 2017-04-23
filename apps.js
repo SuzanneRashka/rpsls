@@ -1,29 +1,18 @@
 $(document).ready(function() {
     console.log('ready!');
 
-    $('#userChoice').on("change", function(event) {
-        userChoice = $('#userChoice').val();
-        console.log(userChoice);
+    $('.choice').click(function() {
+        user = this.value;
+        $("#user").append(user);
+        $("#computer").append(computerChoice);
+        console.log('user chose ' + user);
     });
-    // Logging each click button to equate to id
-    $('#rock').click(function() {
-        console.log("rock");
-    });
-    $('#paper').click(function() {
-        console.log("paper");
-    });
-    $('#scissors').click(function() {
-        console.log("scissors");
-    });
-    $('#lizard').click(function() {
-        console.log("lizard");
-    });
-    $('#spock').click(function() {
-        console.log("spock");
-    });
-    $("#user").append(userChoice);
 
-    $("#computer").append(computerChoice);
-    //$("#textarea").append(userChoice);
+    $(".choice").mouseout(function() {
+        location.reload();
+    })
 
+    $("h4").click(function() {
+        //displays choosen values
+    });
 });

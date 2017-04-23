@@ -1,3 +1,7 @@
+html {
+    background: #FAF0E6
+}
+
 .container {
     margin: 20%;
     padding: 20%;
@@ -23,6 +27,7 @@
     background-color: #007dc1;
     border-radius: 10px;
     color: #ffffff;
+    display: inline-block;
     font-family: Arial;
     font-size: 20px;
     padding: 10px 30px;
